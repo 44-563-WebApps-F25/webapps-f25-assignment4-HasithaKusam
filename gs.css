@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: black;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.speech {
+    font-style: normal;
+    text-indent: 20px;
+}
+
+.song {
+    font-style: italic;
+    text-indent: 40px;
+}
+
+.direction {
+    font-style: italic;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-left: 3px solid #ccc;
+    margin: 10px 0;
+    color: black;
+}
+
+.direction:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nanki { color: darkblue; }
+.cho   { color: darkgreen; }
