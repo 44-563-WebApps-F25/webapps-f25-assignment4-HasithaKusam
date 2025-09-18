@@ -39,3 +39,34 @@ body {
 
 .nanki { color: darkblue; }
 .cho   { color: darkgreen; }
+
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cast-table th, 
+.cast-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.cast-table th {
+    background-color: #444;
+    color: #fff;
+}
+
+.cast-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cast-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.cast-table td {
+    font-size: 0.95em;
+}
