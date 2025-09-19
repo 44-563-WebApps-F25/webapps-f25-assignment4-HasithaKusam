@@ -70,3 +70,10 @@ body {
 .cast-table td {
     font-size: 0.95em;
 }
+.name:hover {
+    text-shadow: 2px 2px 8px #ff4500; 
+    border: 2px dashed #ff4500;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
