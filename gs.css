@@ -6,6 +6,7 @@ body {
     color: black;
 }
 
+/* Character name headings */
 .name {
     font-weight: bold;
     font-size: 1.1em;
@@ -37,8 +38,16 @@ body {
     color: #fff;
 }
 
-.nanki { color: darkblue; }
-.cho   { color: darkgreen; }
+/* Character-specific colors */
+.duke { color: darkred; }
+.casilda { color: maroon; }
+.luiz { color: teal; }
+.bunthorne { color: purple; }
+.patience { color: darkmagenta; }
+
+/* If you still have nanki, chorus classes from old, can keep them or remove */
+/* .nanki { color: darkblue; } */
+/* .cho   { color: darkgreen; } */
 
 .cast-table {
     width: 100%;
@@ -70,13 +79,15 @@ body {
 .cast-table td {
     font-size: 0.95em;
 }
+
 .name:hover {
-    text-shadow: 2px 2px 8px #ff4500; 
+    text-shadow: 2px 2px 8px #ff4500;
     border: 2px dashed #ff4500;
     padding: 2px 5px;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .opera-img {
   max-width: 400px;
   display: block;
@@ -84,6 +95,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
 .navbar {
   display: flex;
   justify-content: center;
